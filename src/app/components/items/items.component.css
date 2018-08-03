@@ -1,0 +1,9 @@
+#pBar {
+  width: 0;
+  height: 20px;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(0deg, #75F0E0, #404BDE);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
