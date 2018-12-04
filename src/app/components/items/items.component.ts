@@ -27,7 +27,6 @@ export class ItemsComponent implements OnInit {
     const arr = [];
     for (let x = 0; x <= meter - 1; x++) {
       const complete = this.items[x].complete;
-      // console.log(complete.complete);
       if (complete === true) {
         arr.push(this.items[x]);
       }
