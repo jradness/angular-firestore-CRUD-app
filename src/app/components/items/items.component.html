@@ -8,7 +8,7 @@
         <i *ngIf="item.complete" (click)="markComplete(item)" class="fa fa-check-circle"></i>
         <i *ngIf="!item.complete" (click)="markComplete(item)" class="fa fa-check-circle-o"></i>
       </a>
-      <strong>{{item.title}}: </strong>{{item.description}} ({{item.complete}})
+      <strong>{{item.title}}: </strong>{{item.description}}
       <a href="#" class="secondary-content">
         <i (click)="editItem($event, item)" class="fa fa-pencil"></i>
       </a>
